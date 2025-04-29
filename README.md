@@ -5,7 +5,7 @@ CallNow is a proposed mobile application designed to foster spontaneous connecti
 ## 2. Problem Statement
 In an increasingly digital world, opportunities for spontaneous, genuine interactions within communities are diminishing. While online platforms connect people, they often lack mechanisms for the kind of unexpected, informal conversations that build deeper relationships and foster a sense of belonging. Existing communication tools require deliberate initiation, missing the element of serendipity found in physical co-location. There's a need for a digital equivalent of "bumping into someone" from a group you care about, encouraging conversations that might not otherwise happen.
 
-##3. Solution: The CallNow App
+## 3. Solution: The CallNow App
 CallNow addresses this gap by providing a platform for random 1-on-1 voice calls within pre-defined, trusted communities.
 
 Concept: Users join specific groups (e.g., "UP Diliman - AI graduate students," "Family," "Circle of Friends"). When a user sets their status to "Available for call" within a group, they can initiate a "Call Now" action. The app randomly connects them with another available member from the same group.
@@ -14,7 +14,7 @@ Anonymity (Pre-call): The recipient sees a call coming from the group (e.g., "So
 
 Goal: To spark conversations, facilitate knowledge sharing (e.g., "What are you working on?", "How was that framework?"), provide informal support ("Kumusta?"), and strengthen community bonds.
 
-4. Target Audience
+## 4. Target Audience
 The primary users are members of specific, existing communities where a sense of trust and shared identity is present. Examples include:
 
 University student groups (e.g., departments, scholars)
@@ -29,7 +29,7 @@ Extended families
 
 The key is that these are groups the user "sincerely cares about" and feels a sense of belonging to.
 
-5. Key Features (Based on Document)
+## 5. Key Features (Based on Document)
 User Authentication & Profile: Basic login/signup.
 
 Group Management:
@@ -68,7 +68,7 @@ Review ratings and feedback.
 
 Implement temporary suspensions (30-90 days) based on feedback/ratings to maintain community standards.
 
-6. Technology Stack (Proposed)
+## 6. Technology Stack (Proposed)
 Mobile Platforms: iOS and Android native apps or a cross-platform framework (e.g., React Native, Flutter).
 
 Calling Technology: Build upon open-source Voice over IP (VoIP) solutions or platforms with robust calling SDKs (e.g., leveraging technologies similar to Telegram, or using WebRTC). This avoids building the complex call infrastructure from scratch.
@@ -77,7 +77,7 @@ Backend: Server infrastructure to manage users, groups, availability status, cal
 
 Push Notifications: For alerting users of incoming calls.
 
-7. Monetization Strategy (Proposed)
+## 7. Monetization Strategy (Proposed)
 The document suggests several potential models:
 
 Community Sponsorship: Companies or organizations that value the community's existence could sponsor specific groups within the app.
@@ -86,14 +86,14 @@ Community Head Paid: The leader or administrator of the community pays a fee for
 
 Member-Shared Cost: The operational expenses (opex) plus a small margin (e.g., 20%) are shared among the community members.
 
-8. Marketing and Go-To-Market Strategy
+## 8. Marketing and Go-To-Market Strategy
 Community-Centric: Focus on onboarding existing, well-defined communities. Partner with community leaders (potential "Community Heads").
 
 Pilot Programs: Launch with a few select pilot groups (e.g., the university groups mentioned) to gather feedback and demonstrate value.
 
 Word-of-Mouth: Encourage organic growth within trusted networks. The value proposition is strongest in groups where members already know and trust each other.
 
-9. Team Roles (Implied)
+## 9. Team Roles (Implied)
 Product Management: Define features, roadmap.
 
 UI/UX Design: Create the mobile app interface based on the mockups.
@@ -108,7 +108,7 @@ Community Management Support: Assist Community Heads and manage overall platform
 
 Community Head (User Role): Crucial for group governance and member verification.
 
-10. Roadmap & Next Steps (Based on Document)
+## 10. Roadmap & Next Steps (Based on Document)
 Validation: Gather further evidence and user research to confirm the need for enhanced genuine connection and belonging in digital communities.
 
 Minimum Viable Product (MVP) Development: Build the core features: user accounts, basic group joining/viewing, availability toggle, random call initiation/reception within a single group, basic post-call rating.
@@ -119,7 +119,7 @@ Iteration: Refine features based on pilot feedback (especially regarding call qu
 
 Expansion: Gradually onboard more communities and potentially add features (e.g., richer profiles, call history, more nuanced feedback).
 
-11. Open Questions (From Document)
+## 11. Open Questions (From Document)
 What are alternative ways to encourage spontaneous interactions digitally?
 
 How else can natural connections be enabled in online spaces?
